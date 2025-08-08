@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Tiwari - Frontend Developer & AI Enthusiast | Portfolio</title>
+    <meta name="description" content="Manish Tiwari - B.Tech CSE (AI & ML) student specializing in Frontend Development and Machine Learning. Available for placement opportunities.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MT</a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" id="theme-icon"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Particles Background -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">Hello, I'm</div>
+                <h1 class="hero-title">
+                    <span class="highlight">Manish Tiwari</span>
+                </h1>
+                
+                <div class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                
+                <p class="hero-description">
+                    Building intelligent web experiences with modern technologies
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn--primary">
+                        <i class="fas fa-rocket"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn--outline">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+                
+                <div class="hero-social">
+                    <a href="https://github.com/m-anish2003" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/manish-tiwari-894b5a220/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:mt8902017@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-avatar">
+                    <div class="avatar-glow"></div>
+                    <div class="avatar-placeholder">
+  <img src="save.jpg" alt="Avatar" class="avatar-image" />
+</div>
+
+                    <div class="floating-icons">
+                        <div class="floating-icon" style="--delay: 0s">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 1s">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 2s">
+                            <i class="fab fa-js"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        B.Tech Computer Science and Engineering (AI & ML) student with practical experience 
+                        in machine learning and web development.
+                    </p>
+                    <p>
+                        Completed the PwC Launchpad Program, gaining strong foundations in Java, OOP, 
+                        Frontend Development, Cloud & DevOps, and Oracle RDBMS. Passionate about solving 
+                        real-world problems through clean, efficient code and data-driven solutions.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Education</h4>
+                                <span>B.Tech CSE (AI & ML)</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Location</h4>
+                                <span>Howrah, West Bengal</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>CGPA</h4>
+                                <span>8.33/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="https://drive.google.com/file/d/1Lx-I5Nf-Rxx5_aQFyE6pBvg_2tEzVexU/view?usp=sharing" class="btn btn--primary download-cv">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="4">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">Internships</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="8.33">0</div>
+                        <div class="stat-label">CGPA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3 class="category-title">Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3 class="category-title">Programming</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Data Structures</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3 class="category-title">Technologies</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Flask</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Machine Learning</span>
+                                <span class="skill-level">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Oracle RDBMS</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/m-anish2003/prototype" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Research Website - NIT Jalandhar</h3>
+                        <p class="project-description">
+                            Developed a responsive research website using Flask, HTML, CSS, and JavaScript. 
+                            Included auto-refresh of publications via Google Scholar API and dynamic modules 
+                            for publications, projects, people, and news using JSON-based data management.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Jinja2</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-duration">Apr 2025 - May 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/m-anish2003/Time-Series-Forecasting-with-Prophet" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Time-Series Forecasting with Prophet</h3>
+                        <p class="project-description">
+                            Developed a comprehensive time series forecasting solution leveraging Facebook's Prophet library. 
+                            Implemented Prophet models to predict future trends, incorporating daily, weekly, and yearly seasonality.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Seaborn</span>
+                            <span class="tech-tag">Prophet</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-duration">Machine Learning Project</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fa fa-pie-chart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/m-anish2003/Time-Series-Forecasting-with-Prophet" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ChronoLedger – Secure Freelancer Task Logging System</h3>
+                        <p class="project-description">
+                           ChronoLedger is a Java-based desktop application designed to securely track, verify, and audit freelance or remote developer activity. It provides a tamper-proof digital ledger using cryptographic hash chaining to record each work session.
+
+Users can log tasks with timestamps, and the system ensures ledger integrity through hash verification. Features include PDF/CSV export, integrity check alerts, and per-user persistent logs. A JavaFX-powered GUI offers a smooth and modern user experience.
+
+The application is particularly suited for remote teams, freelancers, or employers seeking transparent work validation. It helps ensure that billed hours are matched by actual logged work—mitigating fraud and increasing trust in remote collaboration.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">OOPs</span>
+                            <span class="tech-tag">Data Structure</span>
+                            <span class="tech-tag">SHA-256 Hashing</span>
+                            <span class="tech-tag">UI-UX</span>
+                            <span class="tech-tag">File Handling</span>
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-duration">Java Developer Project</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-bar-chart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/m-anish2003/prototype" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">
+                           A responsive and visually engaging personal portfolio website crafted to showcase my projects, technical skills, resume, achievements, and professional journey.
+
+The site is structured with a multi-section layout, including About Me, Projects, Skills, Contact Form, and a dynamic Hero section with animated icons, glowing avatar/photo, and social links.
+
+Built for both desktop and mobile experiences, the portfolio demonstrates my expertise in frontend development, design principles, and user interaction. It serves as a central hub for recruiters, collaborators, and tech communities to view my work and get in touch.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            
+                        </div>
+                        <div class="project-meta">
+                            <span class="project-duration">Portfolio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Internships</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Apr 2025 - May 2025</div>
+                        <h3 class="timeline-title">Front End Developer (Intern)</h3>
+                        <h4 class="timeline-subtitle">NIT JALANDHAR</h4>
+                        <p class="timeline-description">
+                            Developed a fully functional and responsive frontend website for the research group 
+                            of Dr. Ranjeet Kumar Rout, Assistant Professor at NIT Jalandhar, Department of Information Technology.
+                        </p>
+                        <div class="timeline-achievements">
+                            <span class="achievement-tag">Flask</span>
+                            <span class="achievement-tag">Frontend Development</span>
+                            <span class="achievement-tag">Research Website</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2025 - Jun 2025</div>
+                        <h3 class="timeline-title">PwC Launchpad Program</h3>
+                        <h4 class="timeline-subtitle">PwC India</h4>
+                        <p class="timeline-description">
+                            Successfully completed the PwC Launchpad training program, a hands-on, industry-relevant 
+                            learning experience designed to enhance technical and professional skills.
+                        </p>
+                        <div class="timeline-achievements">
+                            <span class="achievement-tag">Java & OOPs</span>
+                            <span class="achievement-tag">Web Development</span>
+                            <span class="achievement-tag">Cloud & DevOps</span>
+                            <span class="achievement-tag">Oracle RDBMS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3 class="timeline-title">Space Technology Internship</h3>
+                        <h4 class="timeline-subtitle">The Agnirva Space</h4>
+                        <p class="timeline-description">
+                            Completed an internship focusing on core concepts of space technology and satellite systems.
+                        </p>
+                        <div class="timeline-achievements">
+                            <span class="achievement-tag">Space Technology</span>
+                            <span class="achievement-tag">Satellite Systems</span>
+                            <span class="achievement-tag">Remote Sensing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Achievements</h2>
+            
+            <div class="education-content">
+                <div class="education-cards">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>B.Tech - Computer Science & Engineering (AI & ML)</h3>
+                            <h4>Haldia Institute Of Technology</h4>
+                            <div class="education-details">
+                                <span class="education-year">2022 - 2026</span>
+                                <span class="education-gpa">CGPA: 8.33/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>12th Grade</h3>
+                            <h4>Shree Jain Vidyalaya, Kolkata</h4>
+                            <div class="education-details">
+                                <span class="education-year">2022</span>
+                                <span class="education-gpa">80% (WBCHSE)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>10th Grade</h3>
+                            <h4>Rose Bud School, Howrah</h4>
+                            <div class="education-details">
+                                <span class="education-year">2020</span>
+                                <span class="education-gpa">75% (CISCE)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="achievements-section">
+                    <h3 class="achievements-title">Key Achievements</h3>
+                    <div class="achievements-grid">
+                        <div class="achievement-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Completed PwC Launchpad Program</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>Participated in Flipkart Grid 5.0 Tech Quiz</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Space Technology Internship at Agnirva Space</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Certified in Google Generative AI & Vertex AI</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-code"></i>
+                            <span>Active in Competitive Programming</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-star"></i>
+                            <span>Strong Academic Performance (8.33 CGPA)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">
+                I'm actively seeking new opportunities and would love to hear from you. 
+                Let's connect and discuss how we can work together!
+            </p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:mt8902017@gmail.com">mt8902017@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+918910112472">+91-8910112472</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <span>Howrah, West Bengal, India</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/m-anish2003" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/manish-tiwari-894b5a220/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:mt8902017@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn--primary btn--full-width">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Manish Tiwari. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
